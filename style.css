@@ -1,0 +1,279 @@
+*{
+    font-family: 'Tinos', serif;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.container{
+    width: 100%;
+    height:100vh;
+    background-color: #ffff;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 100px;
+}
+.logo{
+    /* width: 70px; */
+    width: 122px;
+    /* margin-top:-144px;
+    margin-left: -66px;
+     */
+}
+.image{
+    margin-top: 61px;
+    margin-left: 62%;
+    width: 500px;
+}
+.listitem{
+    display: inline;
+    margin-right: 30px;
+   
+    
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: #a34444;
+    transition: font-size 0.5s;
+
+}
+.link:hover{
+  /* background:#c1a6a6; */
+  color:#4a0c0c;
+  font-size: 30px;
+  
+}
+/* .list{
+    margin-top:-144px;
+} */
+.home-content{
+    max-width: 600px;
+    color:black;
+    text-align:left;
+    margin-top: -267px;
+    margin-left: 100px;
+  }  
+  .home-content h1{
+    font-size: 60px;
+    line-height: 1.2;
+    
+
+
+  }
+  .home-content h3{
+    font-size: 30px;
+    color:#ba1616;
+    -webkit-text-stroke: 0.5px #a34444;
+    
+  }
+  .home-content p{
+    font-size: 18px;
+    margin-top: 20px;
+
+  }
+  .icons{
+    margin: 25px 0 40px;
+  }
+
+  .icons a{
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 20px;
+    color: #780b0b;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #957474;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 12px;
+    background:transparent ;
+    justify-content: center;
+    transition: .5s;
+  }
+  .icons a:hover{
+    background:#957474;
+ 
+  }
+  
+  .btn{
+    padding: 12px 35px;
+    background: #ba1616;
+    border-radius: 40px;
+    font-size: 17px;
+    color: #110d0d;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #957474;
+  }
+  .portfolio{
+    width: 577px;
+    margin-top: 170px;
+    margin-left: 100px;
+  }
+  /* #about{
+    color:#ba1616;
+    padding: 80px 0;
+  } */
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-col-1{
+    flex-basis: 30%;
+  }
+  .about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+    margin-left: 100px;
+  }
+  .about-col-2{
+    flex-basis: 60%;
+  }
+  .sub-title{
+    font-size: 30px;
+    
+  }
+  .p{
+    color: #110d0d;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  /* ......sir........ */
+
+.title{
+  margin-left: 8%;
+  margin-top: 13%;
+}
+.title_h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.title_h1 span{
+  color: rgb(218, 86, 86);
+}
+.title p{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.download{
+  background-color: #110d0d;
+  padding: 10px 5px;
+  color:#ffff;
+  text-decoration: none;
+  border-radius: 5px;
+  
+}
+.img{
+  position: absolute;
+  width: 45%;
+  height: 80%;
+  bottom: 0px;
+  right: 30px;
+}
+.imgmain{
+  width: 100%;
+  transition: width 1s;
+}
+.imgmain:hover{
+  width: 90%;
+}
+#about{
+  margin-top: 23%;
+  margin-left:8% ;
+}
+.headings{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.headings h1{
+  font-size: 50px;
+  color: #110d0d;
+  margin-bottom: 10px;
+}
+.headings span{
+  font-size: 30px;
+  color:rgb(218, 86, 86);
+}
+.abt_details{
+  color: #110d0d;
+}
+.abt_details p{
+  font-size: 20px;
+  text-align: justify;
+}
+.abt_content{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.abt_img img {
+  width:90%
+}
+.abt_info{
+  text-align:center;
+  margin: 10px 0px;
+  font-size: 20px;
+  color:#ba1616;
+  
+}
+.abt_info span{
+  color:#ba1616;
+}
+html{
+  scroll-behavior: smooth;
+}
+.skill-detail{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.skill-detail p{
+  text-align:start;
+  font-size:20px;
+}
+
+.s{
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 40px;
+  /* margin-left: 50px; */
+}
+#skills{
+  margin-top: 23%;
+  margin-left: 8%;
+}
+.python img{
+  width:50%
+}
+.python img:hover{
+  width: 60%;
+}
+.cttc img{
+  width:40%
+}
+.cttc img:hover{
+  width:50%
+}
+
+.fullstack img{
+  width:55%
+}
+.fullstack img:hover{
+  width:60%
+}
+#contact{
+  margin-top: 23%;
+  margin-left: 8%;
+}
+.c{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 40px;
+  /* margin-left: 50px; */
+}
